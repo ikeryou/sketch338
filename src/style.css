@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1;
+}
+
+html, body {
+  background-color: #fff;
+}
+
+.s-gpu {
+  will-change: transform;
+}
+
+.js-height {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.l-debug {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  color: #FFF;
+  font-size: 12px;
+  display: none;
+}
+
+.l-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+
+
+
+
+.l-info {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  color: #fff;
+}
+.l-info span {
+  display: block;
+}
+.l-info a {
+  font-size: 12px;
+  color: inherit;
+}
+
+@media screen and (max-width:768px) {
+  .l-info {
+    margin: 10px;
+  }
+  .l-info a {
+    font-size: 5px;
+  }
+
+  .l-text > .ttl {
+    font-size: 12vw;
+    margin-bottom: 3vw;
+  }
+
+  .l-text > .text {
+    font-size: 4vw;
+    margin-bottom: 13vw;
+  }
+}
